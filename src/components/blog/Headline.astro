@@ -1,4 +1,18 @@
 ---
+/**
+ * ブログ見出しコンポーネント
+ *
+ * レイアウト:
+ * - 見出しの表示
+ * - サブタイトルの表示
+ * - レスポンシブデザイン対応
+ *
+ * 用途:
+ * - ブログセクションの見出し
+ * - セクションの説明
+ * - デザインの統一感の創出
+ * - コンテンツの構造化
+ */
 const { title = await Astro.slots.render('default'), subtitle = await Astro.slots.render('subtitle') } = Astro.props;
 ---
 
